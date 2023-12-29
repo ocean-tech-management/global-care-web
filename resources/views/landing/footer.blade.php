@@ -19,7 +19,7 @@
                 <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.about_globalcare') }}</span>
                     <ul>
-                        <li><a href="{{ route('landing.aboutUs') }}">{{ __('landing.home') }}</a></li>
+                        <li><a href="{{ route('landing.home') }}">{{ __('landing.home') }}</a></li>
                         <li><a href="{{ route('landing.contactUs') }}">{{ __('landing.contact_us') }}</a></li>
                         {{-- <li><a href="#">{{ __('landing.faq') }}</a></li> --}}
                     </ul>
@@ -36,14 +36,14 @@
                 <!-- end footer column -->
                 <!-- start footer column -->
                 <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
-                    <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.site_map') }}</span>
+                    {{-- <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.site_map') }}</span>
                     <ul>
                         <li><a href="{{ route('landing.home') }}">{{ __('landing.home') }}</a></li>
-                        {{-- <li><a href="#">{{ __('landing.product') }}</a></li> --}}
-                        {{-- <li><a href="{{ route('landing.product') }}">{{ __('landing.product') }}</a></li>
+                        <li><a href="#">{{ __('landing.product') }}</a></li>
+                        <li><a href="{{ route('landing.product') }}">{{ __('landing.product') }}</a></li>
                         <li><a href="{{ route('landing.joinUs') }}">{{ __('landing.join_us_as_partners') }}</a></li>
-                        <li><a href="{{ route('landing.productQRCheck') }}">{{ __('landing.product_qr_check') }}</a></li> --}}
-                    </ul>
+                        <li><a href="{{ route('landing.productQRCheck') }}">{{ __('landing.product_qr_check') }}</a></li>
+                    </ul> --}}
                 </div>
                 <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom"></div>
 
