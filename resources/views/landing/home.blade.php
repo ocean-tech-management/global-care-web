@@ -194,10 +194,10 @@
                     <p class="text-extra-large2 alt-font font-weight-300 margin-4-half-rem-bottom" style="line-height: 40px">
                     {{ __('landing.our_product_line-ups_are_carefully_crafted,_curated,_and_developed_to_bring_out_the_best_of_you._we_strive_to_help_bring_out_your_natural_curves,_enhancing_your_health_and_confidence,_starting_from_within.') }}
                     </p>
-                    <a class="text-medium alt-font font-weight-300 btn btn-shadow bg-dark-gold text-uppercase text-white letter-spacing-2px padding-1-half-rem-lr"
+                    {{-- <a class="text-medium alt-font font-weight-300 btn btn-shadow bg-dark-gold text-uppercase text-white letter-spacing-2px padding-1-half-rem-lr"
                     href="{{ route('landing.product') }}">
                     {{ __('landing.view_products') }}
-                    </a>
+                    </a> --}}
                 </div>
 
             </div>
@@ -214,9 +214,9 @@
                         class="title-small alt-font dark-gold font-weight-300 d-block margin-50px-bottom letter-spacing-3px">{{ __('landing.join_us_today') }}</span>
                     <h5 class="text-extra-large2 alt-font text-extra-medium-gray font-weight-300 letter-spacing-minus-1px margin-50px-bottom"
                         style="line-height: 42px">{{ __('landing.join_us_and_together_we_can_spread_the_greatness_of_health_and_wellness._let_us_create_a_new_landscape_and_blue_ocean_in_this_market_together.') }}</h5>
-                    <button class="text-medium alt-font font-weight-300 btn btn-shadow bg-dark-gold text-uppercase text-white letter-spacing-2px padding-1-half-rem-lr">
+                    {{-- <button class="text-medium alt-font font-weight-300 btn btn-shadow bg-dark-gold text-uppercase text-white letter-spacing-2px padding-1-half-rem-lr">
                     {{ __('landing.join_now') }}
-                    </button>
+                    </button> --}}
                 </div>
             </div>
         </div>

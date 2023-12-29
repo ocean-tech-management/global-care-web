@@ -4,16 +4,16 @@
         <div class="container">
             <div class="row">
                 <!-- start footer column -->
-                <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
+                {{-- <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.categories') }}</span>
                     <ul>
-                        {{-- @foreach(getCategories() as $category)
+                        @foreach(getCategories() as $category)
                             <li><a href="{{ route('landing.product') }}">{{ $category->name }}</a></li>
-                        @endforeach --}}
+                        @endforeach
                         <li><a href="#">{{ __('landing.healthcare') }}</a></li>
                         <li><a href="#">{{ __('landing.lifestyle') }}</a></li>
                     </ul>
-                </div>
+                </div> --}}
                 <!-- end footer column -->
                 <!-- start footer column -->
                 <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom">
@@ -21,30 +21,32 @@
                     <ul>
                         <li><a href="{{ route('landing.aboutUs') }}">{{ __('landing.home') }}</a></li>
                         <li><a href="{{ route('landing.contactUs') }}">{{ __('landing.contact_us') }}</a></li>
-                        <li><a href="#">{{ __('landing.faq') }}</a></li>
+                        {{-- <li><a href="#">{{ __('landing.faq') }}</a></li> --}}
                     </ul>
                 </div>
                 <!-- end footer column -->
                 <!-- start footer column -->
-                <div class="col-12 col-lg-2 col-sm-6 xs-margin-25px-bottom">
+                {{-- <div class="col-12 col-lg-2 col-sm-6 xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.my_account') }}</span>
                     <ul>
                         <li><a href="{{ url('/user') }}">{{ __('landing.account') }}</a></li>
                         <li><a href="{{ url('/login') }}">{{ __('landing.login') }}</a></li>
                     </ul>
-                </div>
+                </div> --}}
                 <!-- end footer column -->
                 <!-- start footer column -->
-                <div class="col-12 col-lg-2 col-sm-6 xs-margin-25px-bottom">
+                <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.site_map') }}</span>
                     <ul>
                         <li><a href="{{ route('landing.home') }}">{{ __('landing.home') }}</a></li>
-                        <li><a href="#">{{ __('landing.product') }}</a></li>
+                        {{-- <li><a href="#">{{ __('landing.product') }}</a></li> --}}
                         {{-- <li><a href="{{ route('landing.product') }}">{{ __('landing.product') }}</a></li>
                         <li><a href="{{ route('landing.joinUs') }}">{{ __('landing.join_us_as_partners') }}</a></li>
                         <li><a href="{{ route('landing.productQRCheck') }}">{{ __('landing.product_qr_check') }}</a></li> --}}
                     </ul>
                 </div>
+                <div class="col-12 col-lg-2 col-sm-6 md-margin-40px-bottom xs-margin-25px-bottom"></div>
+
                 <!-- end footer column -->
                 <!-- start footer column -->
                 <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
@@ -75,16 +77,16 @@
                 <div class="col-12 col-md-6 last-paragraph-no-margin sm-margin-20px-bottom">
                     <p>Copyright © Globalcare One Solution. All Rights Reserved.</p>
                 </div>
-                <div class="col-12 col-md-6 ">
-                    {{-- <a class="ml-4" href="{{ route('landing.privacy-policy') }}" target="_blank">{{ __('landing.privacy_policy') }}</a>
+                {{-- <div class="col-12 col-md-6 ">
+                    <a class="ml-4" href="{{ route('landing.privacy-policy') }}" target="_blank">{{ __('landing.privacy_policy') }}</a>
                     <a class="ml-4" href="{{ route('landing.terms-of-use') }}" target="_blank">{{ __('landing.terms_of_use') }}</a>
                     <a class="ml-4" href="{{ route('landing.delivery-policy') }}" target="_blank">{{ __('landing.delivery_policy') }}</a>
-                    <a class="ml-4" href="{{ route('landing.refund-return-policy') }}" target="_blank">{{ __('landing.refund_&_return_policy') }}</a> --}}
+                    <a class="ml-4" href="{{ route('landing.refund-return-policy') }}" target="_blank">{{ __('landing.refund_&_return_policy') }}</a>
                     <a class="ml-4" href="#" target="_blank">{{ __('landing.privacy_policy') }}</a>
                     <a class="ml-4" href="#" target="_blank">{{ __('landing.terms_of_use') }}</a>
                    <a class="ml-4" href="#" target="_blank">{{ __('landing.delivery_policy') }}</a>
                     <a class="ml-4" href="#" target="_blank">{{ __('landing.refund_&_return_policy') }}</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

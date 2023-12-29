@@ -75,10 +75,10 @@
                             @endforeach
                         </ul>
                     </div>
-                    <a class="text-medium alt-font font-weight-300 btn btn-shadow bg-dark-gold text-uppercase text-white letter-spacing-2px padding-1-half-rem-lr ml-5"
+                    {{-- <a class="text-medium alt-font font-weight-300 btn btn-shadow bg-dark-gold text-uppercase text-white letter-spacing-2px padding-1-half-rem-lr ml-5"
                         href="{{ route('login') }}">
                         {{ __('landing.login') }}
-                    </a>
+                    </a> --}}
                 @else
                     @if(Auth::guard('user')->user()->user_type != 4)
                         <div class="header-cart-icon dropdown">
