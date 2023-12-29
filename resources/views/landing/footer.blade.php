@@ -52,6 +52,7 @@
                 <div class="col-12 col-lg-4 col-sm-6 xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">{{ __('landing.contact_information') }}</span>
                     <ul>
+                        <li>GLOBALCARE ONE STOP SOLUTIONS SDN. BHD. (1540496­K)</li>
                         <li><a href="{{ route('landing.contactUs') }}">G-Vestor Tower Kompleks Pavilion Ampang, Menara G-Vestor, 200, Jalan Ampang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</a></li>
                         <li>globalcare@gmail.com</li>
                     </ul>
@@ -74,8 +75,8 @@
     <div class="footer-bottom padding-40px-tb border-top border-color-white-transparent">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-6 last-paragraph-no-margin sm-margin-20px-bottom">
-                    <p>Copyright © Globalcare One Solution. All Rights Reserved.</p>
+                <div class="col-12 last-paragraph-no-margin sm-margin-20px-bottom">
+                    <p>Copyright © GLOBALCARE ONE STOP SOLUTIONS SDN. BHD. (1540496­K). All Rights Reserved.</p>
                 </div>
                 {{-- <div class="col-12 col-md-6 ">
                     <a class="ml-4" href="{{ route('landing.privacy-policy') }}" target="_blank">{{ __('landing.privacy_policy') }}</a>
