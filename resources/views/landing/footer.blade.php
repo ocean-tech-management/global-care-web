@@ -54,7 +54,7 @@
                     <ul>
                         <li>GLOBALCARE ONE STOP SOLUTIONS SDN. BHD. (1540496­K)</li>
                         <li><a href="{{ route('landing.contactUs') }}">G-Vestor Tower Kompleks Pavilion Ampang, Menara G-Vestor, 200, Jalan Ampang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</a></li>
-                        <li>globalcare@gmail.com</li>
+                        <li>support@myglobalcare.asia</li>
                     </ul>
                 </div>
                 <!-- end footer column -->
