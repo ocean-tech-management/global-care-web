@@ -72,7 +72,7 @@
     </section>
     <!-- end section -->
     <!-- start section -->
-    <section class="bg-light-yellow overlap-height wow animate__fadeIn">
+    <section class="bg-light-yellow overlap-height wow animate__fadeIn" style="background: #fff5ef;">
         <div class="container margin-50px-bottom">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8 col-lg-7 col-sm-8 text-center ">
@@ -179,7 +179,7 @@
     </section>
     <!-- end section -->
     <!-- start section -->
-    <section class="big-section bg-light-yellow">
+    <section class="big-section bg-light-yellow" style="background: #fff5ef;">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-12 col-xl-6 col-md-5 sm-margin-30px-bottom wow animate__fadeInLeft">

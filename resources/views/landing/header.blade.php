@@ -5,9 +5,9 @@
         <div class="container-fluid nav-header-container">
             <div class="col-auto col-sm-6 col-lg-2 mr-auto pl-lg-0">
                 <a class="navbar-brand" href="{{ route('landing.home') }}">
-                    <img src="{{asset('landing/images/global_care_logo.svg')}}"  class="default-logo" alt="">
-                    <img src="{{asset('landing/images/global_care_logo.svg')}}" class="alt-logo" alt="">
-                    <img src="{{asset('landing/images/global_care_logo.svg')}}" class="mobile-logo" alt="">
+                    <img src="{{asset('landing/images/global_care_logo.png')}}"  class="default-logo" alt="">
+                    <img src="{{asset('landing/images/global_care_logo.png')}}" class="alt-logo" alt="">
+                    <img src="{{asset('landing/images/global_care_logo.png')}}" class="mobile-logo" alt="">
                 </a>
             </div>
             <div class="col-auto menu-order px-lg-0">
