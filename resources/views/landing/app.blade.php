@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="ThemeZaa">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="description" content="Erya Pheonix - A bra for your soul">
+    <meta name="description" content="Globalcare - A care for your health">
 {{--    <!-- favicon icon -->--}}
 {{--    <link rel="shortcut icon" href="landing/images/favicon.png">--}}
 {{--    <link rel="apple-touch-icon" href="landing/images/apple-touch-icon-57x57.png">--}}
